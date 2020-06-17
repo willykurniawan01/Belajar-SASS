@@ -1,6 +1,7 @@
 body {
   font-family: Montserrat !important;
   background-color: #1A1A1A !important;
+  height: 3000px;
 }
 
 section.start {
@@ -67,55 +68,37 @@ section.start .container .row-info ul li:nth-child(3) {
   font-size: 14px;
 }
 
-section.about .card {
-  height: 600px;
-  width: 100%;
-  background-color: #252525;
+section.about {
   margin-top: -220px;
-  border-radius: 10px;
 }
-section.about .card .card-body {
+section.about .container .row-about {
+  justify-content: center;
+}
+section.about .container .row-about .col-about {
   position: relative;
+  padding: 25px 25px;
+  background-color: #252525;
+  border-radius: 5px;
 }
-section.about .card .card-body .card-title {
-  position: absolute;
-  top: 50px;
-  left: 0;
-  right: 0;
-}
-section.about .card .card-body .card-title h1 {
+section.about .container .row-about .col-about .row-heading {
+  justify-content: center;
   color: #fff;
-  font-size: 4em;
-  text-align: center;
-  text-transform: uppercase;
+}
+section.about .container .row-about .col-about .row-heading h1 {
+  font-size: 65px;
   font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
   opacity: 0.2;
-}
-section.about .card .card-body .card-title h5 {
-  color: #fff;
-  letter-spacing: 5px;
-  text-align: center;
-  margin-top: -60px;
-  font-size: 25px;
-  font-weight: 300;
-}
-section.about .card .card-text {
-  color: darkgrey;
-  margin-top: 150px;
-  text-align: center;
   position: absolute;
-  left: 100px;
-  right: 100px;
-}
-section.about .card .carousel {
-  position: absolute;
-  top: 300px;
-  width: 100%;
   left: 0;
   right: 0;
 }
-section.about .card .carousel .carousel-control-next, section.about .card .carousel .carousel-control-prev {
-  width: 10%;
+section.about .container .row-about .col-about .row-heading h6 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */
