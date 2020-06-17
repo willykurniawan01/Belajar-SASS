@@ -51,8 +51,11 @@ section.start .container .row-text p {
 }
 section.start .container .row-button .btn {
   background-color: #34C759;
-  padding: 15px 25px;
+  padding: 15px 30px;
   border-radius: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+  letter-spacing: 3px;
 }
 section.start .container .row-info {
   color: #fff;
@@ -76,7 +79,7 @@ section.about .container .row-about {
 }
 section.about .container .row-about .col-about {
   position: relative;
-  padding: 25px 25px;
+  padding: 40px 25px;
   background-color: #252525;
   border-radius: 5px;
 }
@@ -85,7 +88,7 @@ section.about .container .row-about .col-about .row-heading {
   color: #fff;
 }
 section.about .container .row-about .col-about .row-heading h1 {
-  font-size: 65px;
+  font-size: 90px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -93,12 +96,44 @@ section.about .container .row-about .col-about .row-heading h1 {
   position: absolute;
   left: 0;
   right: 0;
+  letter-spacing: 10px;
 }
 section.about .container .row-about .col-about .row-heading h6 {
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+section.about .container .row-about .col-about .row-heading h6::after {
+  content: "";
+  display: block;
+  width: 10%;
+  border-bottom: 2px solid #34C759;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+}
+section.about .container .row-about .col-about .row-text {
+  margin-top: 60px;
+  justify-content: center;
+}
+section.about .container .row-about .col-about .row-text .col-text p {
+  color: darkgrey;
+  font-size: 16px;
+  text-align: center;
+}
+section.about .container .row-about .col-about .row-carousel {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+section.about .container .row-about .col-about .row-carousel .col-carousel .carousel-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+section.about .container .row-about .col-about .row-carousel .col-carousel .carousel-item img {
+  height: 270px;
+  width: 350px;
 }
 
 /*# sourceMappingURL=style.css.map */

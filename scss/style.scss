@@ -78,8 +78,11 @@ section.start{
         .row-button{
             .btn{
                 background-color: $primary-color;
-                padding: 15px 25px;
-                border-radius: 30px;    
+                padding: 15px 30px;
+                border-radius: 30px;  
+                font-size: 20px;  
+                margin-top: 20px;
+                letter-spacing: 3px;
             }
         }
 
@@ -112,14 +115,14 @@ section.start{
                         justify-content: center;
                    .col-about{
                     position: relative;
-                    padding:25px 25px;
+                    padding:40px 25px;
                     background-color: $dark-grey;
                     border-radius: 5px;
                         .row-heading{
                             justify-content: center;
                             color: $secondary-color;
                             h1{
-                                font-size: 65px;
+                                font-size: 90px;
                                 font-weight: 700;
                                 text-transform: uppercase;
                                 text-align: center;
@@ -127,13 +130,56 @@ section.start{
                                 position: absolute;
                                 left: 0;
                                 right: 0;
+                                letter-spacing: 10px;
                             }
 
                             h6{
-                                margin-top: 20px;
+                                margin-top: 40px;
                                 text-align: center;
                                 font-size: 30px;
-                                font-weight: 300;
+                                font-weight: 400;
+                                letter-spacing: 5px;
+                            }
+
+                            h6::after{
+                                content: "";
+                                display: block;
+                                width: 10%;
+                                border-bottom: 2px solid $primary-color;
+                                text-align: center;
+                                margin: auto;
+                                padding-top: 30px;
+                            }
+                        }
+                        
+
+                        .row-text{
+                            margin-top: 60px;
+                            justify-content: center;
+                            .col-text{
+                                p{
+                                    color: darkgrey;
+                                    font-size: 16px;
+                                    text-align: center;
+                                }
+                            }
+                            
+                        }
+
+                      
+
+                        .row-carousel{
+                            margin-top: 50px;
+                            margin-bottom: 30px;
+                            .col-carousel{
+                                .carousel-item{
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                    img{
+                                        height: 270px;
+                                        width: 350px;
+                                    }
+                                }
                             }
                         }
                    }
