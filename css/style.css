@@ -206,6 +206,7 @@ section.work .container .row-work .col-work .row-card .card:hover {
   color: #1A1A1A;
   padding: 20px 0px;
   height: 230px;
+  cursor: pointer;
 }
 section.work .container .row-work .col-work .row-card .card:hover .card-title {
   font-size: 20px;
@@ -222,6 +223,113 @@ section.work .container .row-work .col-work .row-card .card:hover .card-text {
   color: #1A1A1A;
   font-size: 14px;
   font-weight: 500;
+}
+
+section.dishes .container .row-dishes {
+  justify-content: center;
+}
+section.dishes .container .row-dishes .col-dishes {
+  position: relative;
+  padding: 40px 25px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+section.dishes .container .row-dishes .col-dishes .row-heading {
+  justify-content: center;
+  color: #fff;
+}
+section.dishes .container .row-dishes .col-dishes .row-heading h1 {
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  letter-spacing: 10px;
+}
+section.dishes .container .row-dishes .col-dishes .row-heading h6 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+section.dishes .container .row-dishes .col-dishes .row-heading h6::after {
+  content: "";
+  display: block;
+  width: 10%;
+  border-bottom: 2px solid #34C759;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+}
+section.dishes .container .row-dishes .col-dishes .row-card {
+  margin-top: 50px;
+}
+section.dishes .container .row-dishes .col-dishes .row-card .card {
+  position: relative;
+  background-color: #252525 !important;
+  color: #fff;
+  padding: 0;
+  height: 500px;
+  margin-bottom: 30px;
+}
+section.dishes .container .row-dishes .col-dishes .row-card .card .card-img {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+}
+section.dishes .container .row-dishes .col-dishes .row-card .card .card-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+section.dishes .container .row-dishes .col-dishes .row-card .card .card-img img:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+section.dishes .container .row-dishes .col-dishes .row-card .card .card-info {
+  position: absolute;
+  top: 314px;
+  font-weight: 200;
+  font-size: 14px;
+  color: darkgrey;
+}
+section.dishes .container .row-dishes .col-dishes .row-card .card .card-title {
+  position: absolute;
+  top: 280px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+section.dishes .container .row-dishes .col-dishes .row-card .card .card-text {
+  position: absolute;
+  top: 350px;
+  color: darkgrey;
+  font-size: 14px;
+}
+section.dishes .container .row-dishes .col-dishes .row-card .card .btn-order {
+  position: absolute;
+  background-color: #34C759;
+  top: 430px;
+  width: 120px;
+  height: 50px;
+  right: 25px;
+  border-radius: 25px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

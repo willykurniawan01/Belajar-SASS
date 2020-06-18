@@ -266,6 +266,7 @@ section.start{
                                 color: $black;
                                 padding: 20px 0px;
                                 height: 230px;
+                                cursor: pointer;
 
                                 .card-title{
                                     font-size: 20px;
@@ -294,3 +295,130 @@ section.start{
             }
     }
 // section work
+
+// section dishes
+    section.dishes{
+            .container{
+                .row-dishes{
+                        justify-content: center;
+                   .col-dishes{
+                    position: relative;
+                    padding:40px 25px;
+                    background-color: transparent;
+                    border-radius: 5px;
+                        .row-heading{
+                            justify-content: center;
+                            color: $secondary-color;
+                            h1{
+                                font-size: 90px;
+                                font-weight: 700;
+                                text-transform: uppercase;
+                                text-align: center;
+                                opacity: .2;
+                                position: absolute;
+                                left: 0;
+                                right: 0;
+                                letter-spacing: 10px;
+                            }
+
+                            h6{
+                                margin-top: 40px;
+                                text-align: center;
+                                font-size: 30px;
+                                font-weight: 400;
+                                letter-spacing: 5px;
+                            }
+
+                            h6::after{
+                                content: "";
+                                display: block;
+                                width: 10%;
+                                border-bottom: 2px solid $primary-color;
+                                text-align: center;
+                                margin: auto;
+                                padding-top: 30px;
+                            }
+                        }
+
+                        .row-card{
+                            margin-top: 50px;
+                            .card{
+                                position: relative;
+                                background-color: $dark-grey !important;
+                                color: $secondary-color;
+                                padding: 0;
+                                height: 500px;
+                                margin-bottom: 30px;
+                                
+
+                                .card-img{
+                                    width: 100%;
+                                    height: 250px;
+                                    position: absolute;
+                                    left: 0;
+                                    right: 0;
+                                    top: 0;
+                                    overflow: hidden;
+                                    img{
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        right: 0;
+                                        bottom: 0;
+                                        transition: all .5s;
+                                    }
+
+                                    img:hover{
+                                        transform: scale(1.2);
+                                        transition: all .5s;
+                                        cursor: pointer;
+                                    }
+                                }
+
+                                .card-info{
+                                    position: absolute;
+                                    top: 314px;
+                                    font-weight: 200;
+                                    font-size: 14px;
+                                    color: darkgrey;
+                                }
+
+                                .card-title{
+                                    position: absolute;
+                                    top: 280px;
+                                    font-size: 30px;
+                                    text-transform: capitalize;
+                                    font-weight: 700;
+                                }
+
+                               
+
+                                .card-text{
+                                    position: absolute;
+                                    top: 350px;
+                                    color: darkgrey;
+                                    font-size: 14px;
+                                }
+
+                                .btn-order{
+                                    position: absolute;
+                                    background-color: $primary-color;
+                                    top: 430px;
+                                    width: 120px;
+                                    height: 50px;
+                                   right: 25px;
+                                   border-radius: 25px;
+                                   font-weight: 700;
+                                   letter-spacing: 3px;
+                                   text-transform: uppercase;
+                                   font-size: 12px
+                                }
+                            }
+                        }
+                        
+                   }
+
+                }
+            }
+    }
+// section dishes
