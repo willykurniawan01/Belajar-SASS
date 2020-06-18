@@ -332,4 +332,94 @@ section.dishes .container .row-dishes .col-dishes .row-card .card .btn-order {
   font-size: 12px;
 }
 
+section.chefs .container .row-chefs {
+  justify-content: center;
+}
+section.chefs .container .row-chefs .col-chefs {
+  position: relative;
+  padding: 40px 25px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+section.chefs .container .row-chefs .col-chefs .row-heading {
+  justify-content: center;
+  color: #fff;
+}
+section.chefs .container .row-chefs .col-chefs .row-heading h1 {
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  letter-spacing: 10px;
+}
+section.chefs .container .row-chefs .col-chefs .row-heading h6 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+section.chefs .container .row-chefs .col-chefs .row-heading h6::after {
+  content: "";
+  display: block;
+  width: 10%;
+  border-bottom: 2px solid #34C759;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+}
+section.chefs .container .row-chefs .col-chefs .row-card {
+  margin-top: 50px;
+}
+section.chefs .container .row-chefs .col-chefs .row-card .card {
+  border: none;
+  position: relative;
+  background-color: transparent;
+  color: #fff;
+  height: 150px;
+  padding: 0px !important;
+}
+section.chefs .container .row-chefs .col-chefs .row-card .card .card-chef {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+}
+section.chefs .container .row-chefs .col-chefs .row-card .card .card-chef img {
+  align-self: center;
+}
+section.chefs .container .row-chefs .col-chefs .row-card .card .card-chef .chef-info {
+  align-self: center;
+  margin-left: 20px;
+}
+section.chefs .container .row-chefs .col-chefs .row-card .card .card-chef .chef-info h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+section.chefs .container .row-chefs .col-chefs .row-card .card .card-chef .chef-info h6 {
+  font-size: 14px;
+  color: darkgrey;
+  font-weight: 300;
+}
+section.chefs .container .row-chefs .col-chefs .row-card .card .card-chefpic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+section.chefs .container .row-chefs .col-chefs .row-card .card .card-chefpic img {
+  align-self: flex-end;
+}
+
 /*# sourceMappingURL=style.css.map */
