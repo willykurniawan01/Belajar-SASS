@@ -188,3 +188,109 @@ section.start{
             }
     }
 // section about
+
+// section work
+    section.work{
+            .container{
+                .row-work{
+                        justify-content: center;
+                   .col-work{
+                    position: relative;
+                    padding:40px 25px;
+                    background-color: transparent;
+                    border-radius: 5px;
+                        .row-heading{
+                            justify-content: center;
+                            color: $secondary-color;
+                            h1{
+                                font-size: 90px;
+                                font-weight: 700;
+                                text-transform: uppercase;
+                                text-align: center;
+                                opacity: .2;
+                                position: absolute;
+                                left: 0;
+                                right: 0;
+                                letter-spacing: 10px;
+                            }
+
+                            h6{
+                                margin-top: 40px;
+                                text-align: center;
+                                font-size: 30px;
+                                font-weight: 400;
+                                letter-spacing: 5px;
+                            }
+
+                            h6::after{
+                                content: "";
+                                display: block;
+                                width: 10%;
+                                border-bottom: 2px solid $primary-color;
+                                text-align: center;
+                                margin: auto;
+                                padding-top: 30px;
+                            }
+                        }
+
+                        .row-card{
+                            margin-top: 50px;
+                            .card{
+                                background-color: $dark-grey !important;
+                                color: $secondary-color;
+                                padding: 20px 0px;
+                                height: 230px;
+
+                                .card-title{
+                                    font-size: 20px;
+                                    text-transform: capitalize;
+                                    font-weight: 700;
+                                }
+
+                                .card-title::after{
+                                    content: " ";
+                                    display: block;
+                                    border-bottom: solid 2px $primary-color;
+                                    width: 30%;
+                                    margin-top: 15px;
+                                }
+
+                                .card-text{
+                                    color: darkgrey;
+                                    font-size: 14px;
+                                }
+                            }
+
+                            .card:hover{
+                                background-color: $primary-color !important;
+                                color: $black;
+                                padding: 20px 0px;
+                                height: 230px;
+
+                                .card-title{
+                                    font-size: 20px;
+                                    text-transform: capitalize;
+                                }
+
+                                .card-title::after{
+                                    content: " ";
+                                    display: block;
+                                    border-bottom: solid 2px $black;
+                                    width: 30%;
+                                    margin-top: 15px;
+                                }
+
+                                .card-text{
+                                    color: $black;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                        
+                   }
+
+                }
+            }
+    }
+// section work

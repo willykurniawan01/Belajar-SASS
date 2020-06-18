@@ -136,4 +136,92 @@ section.about .container .row-about .col-about .row-carousel .col-carousel .caro
   width: 350px;
 }
 
+section.work .container .row-work {
+  justify-content: center;
+}
+section.work .container .row-work .col-work {
+  position: relative;
+  padding: 40px 25px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+section.work .container .row-work .col-work .row-heading {
+  justify-content: center;
+  color: #fff;
+}
+section.work .container .row-work .col-work .row-heading h1 {
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  letter-spacing: 10px;
+}
+section.work .container .row-work .col-work .row-heading h6 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+section.work .container .row-work .col-work .row-heading h6::after {
+  content: "";
+  display: block;
+  width: 10%;
+  border-bottom: 2px solid #34C759;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+}
+section.work .container .row-work .col-work .row-card {
+  margin-top: 50px;
+}
+section.work .container .row-work .col-work .row-card .card {
+  background-color: #252525 !important;
+  color: #fff;
+  padding: 20px 0px;
+  height: 230px;
+}
+section.work .container .row-work .col-work .row-card .card .card-title {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+section.work .container .row-work .col-work .row-card .card .card-title::after {
+  content: " ";
+  display: block;
+  border-bottom: solid 2px #34C759;
+  width: 30%;
+  margin-top: 15px;
+}
+section.work .container .row-work .col-work .row-card .card .card-text {
+  color: darkgrey;
+  font-size: 14px;
+}
+section.work .container .row-work .col-work .row-card .card:hover {
+  background-color: #34C759 !important;
+  color: #1A1A1A;
+  padding: 20px 0px;
+  height: 230px;
+}
+section.work .container .row-work .col-work .row-card .card:hover .card-title {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+section.work .container .row-work .col-work .row-card .card:hover .card-title::after {
+  content: " ";
+  display: block;
+  border-bottom: solid 2px #1A1A1A;
+  width: 30%;
+  margin-top: 15px;
+}
+section.work .container .row-work .col-work .row-card .card:hover .card-text {
+  color: #1A1A1A;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=style.css.map */
