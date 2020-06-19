@@ -532,3 +532,280 @@ section.chefs{
     }
 }
 // section chefs
+
+// section recipes
+section.recipes{
+    .container{
+        .row-recipes{
+                justify-content: center;
+           .col-recipes{
+            position: relative;
+            padding:40px 25px;
+            background-color: transparent;
+            border-radius: 5px;
+                .row-heading{
+                    justify-content: center;
+                    color: $secondary-color;
+                    h1{
+                        font-size: 90px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        text-align: center;
+                        opacity: .2;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        letter-spacing: 10px;
+                    }
+
+                    h6{
+                        margin-top: 40px;
+                        text-align: center;
+                        font-size: 30px;
+                        font-weight: 400;
+                        letter-spacing: 5px;
+                    }
+
+                    h6::after{
+                        content: "";
+                        display: block;
+                        width: 10%;
+                        border-bottom: 2px solid $primary-color;
+                        text-align: center;
+                        margin: auto;
+                        padding-top: 30px;
+                    }
+                }
+
+                .row-card{
+                    margin-top: 50px;
+                        .figure{
+                            position: relative;
+                            .figure-img{
+                                position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    overflow: hidden;
+                                    height: 510px;
+                                    width: 540px;
+                                img{
+                                    transition: all .5s;
+                                    height: 510px;
+                                    width: 540px;
+                                }
+
+                                img:hover{
+                                    transform: scale(1.2);
+                                    transition: all .5s;
+                                }
+                            }
+                        }
+
+
+                        .card-group{    
+                            height: 510px;
+                            width: 540px;
+                            display: flex;
+                            justify-content: space-between;
+                            flex-direction: column;
+
+                            .card-recipe{
+                                height: 150px;
+                                background-color: $dark-grey;
+                                color: $secondary-color;
+                            }
+
+                            .card-recipe:hover{
+                                background-color: $primary-color;
+                            }
+                        }
+
+                        @media (max-width:1000px) {
+                            .card-group{
+                                margin-top: 600px;
+                            }
+                        }
+                }
+                
+           }
+
+        }
+    }
+}
+// section recipes
+
+// section social
+
+// section footer
+
+
+section.social
+
+// section footer
+
+{
+    .container{
+        .row-social
+        
+        // section footer
+        
+        {
+                justify-content: center;
+           .col-social
+           
+        //    section footer
+        
+        {
+            position: relative;
+            padding:40px 25px;
+            background-color: transparent;
+            border-radius: 5px;
+                .row-heading{
+                    justify-content: center;
+                    color: $secondary-color;
+                    h1{
+                        font-size: 90px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        text-align: center;
+                        opacity: .2;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        letter-spacing: 10px;
+                    }
+
+                    h6{
+                        margin-top: 40px;
+                        text-align: center;
+                        font-size: 30px;
+                        font-weight: 400;
+                        letter-spacing: 5px;
+                    }
+
+                    h6::after{
+                        content: "";
+                        display: block;
+                        width: 10%;
+                        border-bottom: 2px solid $primary-color;
+                        text-align: center;
+                        margin: auto;
+                        padding-top: 30px;
+                    }
+                }
+
+                .row-card{
+                    margin-top: 50px;
+                        .figure{
+                            position: relative;
+                            .figure-img{
+                                position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    overflow: hidden;
+                                    height: 510px;
+                                    width: 540px;
+                                img{
+                                    transition: all .5s;
+                                    height: 510px;
+                                    width: 540px;
+                                }
+
+                                img:hover{
+                                    transform: scale(1.2);
+                                    transition: all .5s;
+                                }
+                            }
+                        }
+
+
+                        .card-group{    
+                            height: 510px;
+                            width: 540px;
+                            display: flex;
+                            justify-content: space-between;
+                            flex-direction: column;
+
+                            .card-recipe{
+                                height: 150px;
+                                background-color: $dark-grey;
+                                color: $secondary-color;
+                            }
+
+                            .card-recipe:hover{
+                                background-color: $primary-color;
+                            }
+                        }
+
+                        @media (max-width:1000px) {
+                            .card-group{
+                                margin-top: 600px;
+                            }
+                        }
+                }
+                
+           }
+
+        }
+    }
+}
+// section social
+
+// section footer
+    section.footer{
+    footer{
+        height: 275px;
+        width: 100%;
+        background-color: $dark-grey;
+        margin-top: 500px;
+        
+        .footer-info{
+            width: 100%;
+            border-bottom: .5px solid rgb(85, 84, 84);
+            text-align: center;
+            padding: 40px 0px;
+            color: $secondary-color;
+            ul{
+                list-style: none;
+            }
+
+            li:nth-child(3){
+                color: darkgray;
+                font-size: 14px;
+            }
+        }
+        
+        .footer-copyright{
+            padding: 20px 0;
+            ul{
+                list-style: none;
+                li{
+                    .logo-footer{
+
+                    }
+
+                  h6{
+                    color: $primary-color;
+                    vertical-align:bottom;
+                    display: inline;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    margin-left: 3px;
+                    letter-spacing: 3px;
+                  }
+                }
+
+                li:nth-child(2){
+                    color: darkgrey;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+// section footer
+
